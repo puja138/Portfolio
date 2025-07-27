@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: portfolio-web
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn yourprojectname.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: yourprojectname.settings
+      - key: SECRET_KEY
+        generateValue: true

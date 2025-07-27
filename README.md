@@ -3,9 +3,6 @@
 Welcome to my personal portfolio website!  
 I'm Puja Barman, a passionate Django developer from West Bengal, India.
 
-## 🔗 Live Site
-👉 [Click to View My Portfolio](https://puja-portfolio.onrender.com) *(replace with your real link)*
-
 ## 🚀 Tech Stack
 - HTML5
 - CSS3
